@@ -1,0 +1,65 @@
+[
+    {
+        "word": "THE",
+        "start": 0,
+        "end": 8,
+        "score": 0.7786390023538843,
+        "phoneme": "DH AH0"
+    },
+    {
+        "word": "QUICK",
+        "start": 14,
+        "end": 29,
+        "score": 0.9137150287628174,
+        "phoneme": "K W IH1 K"
+    },
+    {
+        "word": "BROWN",
+        "start": 36,
+        "end": 54,
+        "score": 0.8628206411934671,
+        "phoneme": "B R AW1 N"
+    },
+    {
+        "word": "FOX",
+        "start": 61,
+        "end": 82,
+        "score": 0.920678585767746,
+        "phoneme": "F AA1 K S"
+    },
+    {
+        "word": "JUMPS",
+        "start": 90,
+        "end": 110,
+        "score": 0.7832370599331171,
+        "phoneme": "JH AH1 M P S"
+    },
+    {
+        "word": "OVER",
+        "start": 117,
+        "end": 127,
+        "score": 0.8341632418334484,
+        "phoneme": "OW1 V ER0"
+    },
+    {
+        "word": "THE",
+        "start": 130,
+        "end": 135,
+        "score": 0.9981123805046082,
+        "phoneme": "DH AH0"
+    },
+    {
+        "word": "LAZY",
+        "start": 141,
+        "end": 166,
+        "score": 0.9137751164427027,
+        "phoneme": "L EY1 Z IY0"
+    },
+    {
+        "word": "DOG",
+        "start": 169,
+        "end": 204,
+        "score": 0.8936934420056561,
+        "phoneme": "D AO1 G"
+    }
+]

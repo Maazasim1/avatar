@@ -1,0 +1,24 @@
+{
+  "name": "avatar-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "gltf-pipeline": "^4.1.0",
+    "gsap": "^3.12.7",
+    "howler": "^2.2.4",
+    "three": "^0.172.0",
+    "three-addons": "^1.2.0",
+    "three-stdlib": "^2.35.13"
+  },
+  "devDependencies": {
+    "dat.gui": "^0.7.9",
+    "vite": "^6.0.7"
+  }
+}

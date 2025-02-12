@@ -361,10 +361,10 @@ window.handleInteraction = function () {
                 let currentEnd = 0;
             
                 for (const wordData of wordTimingData) {
-                    if (playbackPosition >= wordData.start * 10 && playbackPosition <= wordData.end * 10) {
+                    if (playbackPosition >= wordData.start_ms && playbackPosition <= wordData.end_ms) {
                         currentPhoneme = wordData.phoneme.split(" ");
-                        currentStart = wordData.start * 10;
-                        currentEnd = wordData.end * 10;
+                        currentStart = wordData.start_ms;
+                        currentEnd = wordData.end_ms;
                         break;
                     }
                 }
@@ -381,10 +381,10 @@ window.handleInteraction = function () {
                 if (currentPhoneme) {
                     const animatablePhonemes = convertPhonemes(currentPhoneme);
                     let progress = (playbackPosition - currentStart) / (currentEnd - currentStart);
-                    progress = Math.min(Math.max(progress, lastProgress * 0.85), 1);
-            
+                    progress = Math.max(0, Math.min(progress, 1));
+
                     const totalPhonemes = currentPhoneme.length;
-                    const phonemeDuration = (currentEnd - currentStart) / totalPhonemes;
+                    const phonemeDuration = (currentEnd - currentStart)*0.8 / totalPhonemes;
             
                     // console.log(`🎭 Phonemes: ${currentPhoneme} | Duration per phoneme: ${phonemeDuration}s`);
                     // console.log(`current end:${currentEnd}  playback:${playbackPosition}`);

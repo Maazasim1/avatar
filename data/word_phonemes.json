@@ -1,65 +1,263 @@
 [
     {
+        "word": "HELLO",
+        "start": 1,
+        "end": 26,
+        "score": 0.8503632512781769,
+        "phoneme": "HH AH0 L OW1",
+        "start_ms": 13,
+        "end_ms": 349
+    },
+    {
+        "word": "THIS",
+        "start": 27,
+        "end": 153,
+        "score": 0.9605140121309743,
+        "phoneme": "DH IH1 S",
+        "start_ms": 362,
+        "end_ms": 2055
+    },
+    {
+        "word": "IS",
+        "start": 158,
+        "end": 163,
+        "score": 0.8258350193500519,
+        "phoneme": "IH1 Z",
+        "start_ms": 2122,
+        "end_ms": 2189
+    },
+    {
+        "word": "A",
+        "start": 164,
+        "end": 165,
+        "score": 0.9999334812164307,
+        "phoneme": "AH0",
+        "start_ms": 2203,
+        "end_ms": 2216
+    },
+    {
+        "word": "TEST",
+        "start": 180,
+        "end": 200,
+        "score": 0.8374181389808655,
+        "phoneme": "T EH1 S T",
+        "start_ms": 2418,
+        "end_ms": 2686
+    },
+    {
+        "word": "FOR",
+        "start": 203,
+        "end": 214,
+        "score": 0.8954016860913147,
+        "phoneme": "F AO1 R",
+        "start_ms": 2727,
+        "end_ms": 2874
+    },
+    {
+        "word": "TEXTTOSPEECH",
+        "start": 218,
+        "end": 278,
+        "score": 0.8384037075937765,
+        "phoneme": "N/A",
+        "start_ms": 2928,
+        "end_ms": 3734
+    },
+    {
+        "word": "SYNTHESIS",
+        "start": 282,
+        "end": 323,
+        "score": 0.8715000881972473,
+        "phoneme": "S IH1 N TH AH0 S AH0 S",
+        "start_ms": 3788,
+        "end_ms": 4339
+    },
+    {
+        "word": "EACH",
+        "start": 452,
+        "end": 465,
+        "score": 0.7979762422350737,
+        "phoneme": "IY1 CH",
+        "start_ms": 6072,
+        "end_ms": 6246
+    },
+    {
+        "word": "WORD",
+        "start": 473,
+        "end": 494,
+        "score": 0.9287084964702704,
+        "phoneme": "W ER1 D",
+        "start_ms": 6354,
+        "end_ms": 6636
+    },
+    {
+        "word": "SHOULD",
+        "start": 498,
+        "end": 512,
+        "score": 0.6962964545403209,
+        "phoneme": "SH UH1 D",
+        "start_ms": 6690,
+        "end_ms": 6878
+    },
+    {
+        "word": "BE",
+        "start": 517,
+        "end": 524,
+        "score": 0.9307261449950082,
+        "phoneme": "B IY1",
+        "start_ms": 6945,
+        "end_ms": 7039
+    },
+    {
+        "word": "CLEAR",
+        "start": 532,
+        "end": 558,
+        "score": 0.6244580651210316,
+        "phoneme": "K L IH1 R",
+        "start_ms": 7147,
+        "end_ms": 7496
+    },
+    {
+        "word": "SMOOTH",
+        "start": 568,
+        "end": 608,
+        "score": 0.8193815306236502,
+        "phoneme": "S M UW1 DH",
+        "start_ms": 7630,
+        "end_ms": 8168
+    },
+    {
+        "word": "AND",
+        "start": 625,
+        "end": 631,
+        "score": 0.6648034759952376,
+        "phoneme": "AH0 N D",
+        "start_ms": 8396,
+        "end_ms": 8477
+    },
+    {
+        "word": "NATURAL",
+        "start": 643,
+        "end": 680,
+        "score": 0.7919029740612894,
+        "phoneme": "N AE1 CH ER0 AH0 L",
+        "start_ms": 8638,
+        "end_ms": 9135
+    },
+    {
+        "word": "CHECK",
+        "start": 760,
+        "end": 779,
+        "score": 0.8985023133848843,
+        "phoneme": "CH EH1 K",
+        "start_ms": 10210,
+        "end_ms": 10465
+    },
+    {
+        "word": "PRONUNCIATION",
+        "start": 788,
+        "end": 849,
+        "score": 0.9075519975711835,
+        "phoneme": "P R OW0 N AH2 N S IY0 EY1 SH AH0 N",
+        "start_ms": 10586,
+        "end_ms": 11405
+    },
+    {
+        "word": "SPEED",
+        "start": 870,
+        "end": 901,
+        "score": 0.8190214882774707,
+        "phoneme": "S P IY1 D",
+        "start_ms": 11687,
+        "end_ms": 12104
+    },
+    {
+        "word": "AND",
+        "start": 914,
+        "end": 919,
+        "score": 0.7995512425899506,
+        "phoneme": "AH0 N D",
+        "start_ms": 12278,
+        "end_ms": 12346
+    },
+    {
+        "word": "TONE",
+        "start": 926,
+        "end": 947,
+        "score": 0.8376530270142472,
+        "phoneme": "T OW1 N",
+        "start_ms": 12440,
+        "end_ms": 12722
+    },
+    {
+        "word": "LETS",
+        "start": 1038,
+        "end": 1053,
+        "score": 0.8517739509542783,
+        "phoneme": "L EH1 T S",
+        "start_ms": 13944,
+        "end_ms": 14146
+    },
+    {
+        "word": "ENSURE",
+        "start": 1060,
+        "end": 1089,
+        "score": 0.9541414297860245,
+        "phoneme": "EH0 N SH UH1 R",
+        "start_ms": 14240,
+        "end_ms": 14629
+    },
+    {
         "word": "THE",
-        "start": 0,
-        "end": 8,
-        "score": 0.7786390023538843,
-        "phoneme": "DH AH0"
+        "start": 1093,
+        "end": 1099,
+        "score": 0.9726618826389313,
+        "phoneme": "DH AH0",
+        "start_ms": 14683,
+        "end_ms": 14764
     },
     {
-        "word": "QUICK",
-        "start": 14,
-        "end": 29,
-        "score": 0.9137150287628174,
-        "phoneme": "K W IH1 K"
+        "word": "VOICE",
+        "start": 1103,
+        "end": 1126,
+        "score": 0.9151222171342891,
+        "phoneme": "V OY1 S",
+        "start_ms": 14818,
+        "end_ms": 15126
     },
     {
-        "word": "BROWN",
-        "start": 36,
-        "end": 54,
-        "score": 0.8628206411934671,
-        "phoneme": "B R AW1 N"
+        "word": "SOUNDS",
+        "start": 1134,
+        "end": 1163,
+        "score": 0.8676291918356959,
+        "phoneme": "S AW1 N D Z",
+        "start_ms": 15234,
+        "end_ms": 15624
     },
     {
-        "word": "FOX",
-        "start": 61,
-        "end": 82,
-        "score": 0.920678585767746,
-        "phoneme": "F AA1 K S"
+        "word": "REALISTIC",
+        "start": 1168,
+        "end": 1212,
+        "score": 0.8837153898712131,
+        "phoneme": "R IY2 AH0 L IH1 S T IH0 K",
+        "start_ms": 15691,
+        "end_ms": 16282
     },
     {
-        "word": "JUMPS",
-        "start": 90,
-        "end": 110,
-        "score": 0.7832370599331171,
-        "phoneme": "JH AH1 M P S"
+        "word": "AND",
+        "start": 1220,
+        "end": 1226,
+        "score": 0.6897403163214525,
+        "phoneme": "AH0 N D",
+        "start_ms": 16389,
+        "end_ms": 16470
     },
     {
-        "word": "OVER",
-        "start": 117,
-        "end": 127,
-        "score": 0.8341632418334484,
-        "phoneme": "OW1 V ER0"
-    },
-    {
-        "word": "THE",
-        "start": 130,
-        "end": 135,
-        "score": 0.9981123805046082,
-        "phoneme": "DH AH0"
-    },
-    {
-        "word": "LAZY",
-        "start": 141,
-        "end": 166,
-        "score": 0.9137751164427027,
-        "phoneme": "L EY1 Z IY0"
-    },
-    {
-        "word": "DOG",
-        "start": 169,
-        "end": 204,
-        "score": 0.8936934420056561,
-        "phoneme": "D AO1 G"
+        "word": "ENGAGING",
+        "start": 1230,
+        "end": 1268,
+        "score": 0.9313178185716664,
+        "phoneme": "EH0 N G EY1 JH IH0 NG",
+        "start_ms": 16524,
+        "end_ms": 17034
     }
 ]

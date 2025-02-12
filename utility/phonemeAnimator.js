@@ -2,21 +2,21 @@ import gsap from "gsap";
 
 // Phoneme-morph target mapping
 const phonemeAnimations = {
-    "AA": [1,1,1],   // Open mouth
-    "EE": [2],   // Wide lips
-    "OO": [3],   // Rounded lips
-    "F/V": [4],  // Teeth on lip
-    "TH": [1,5,1],   // Tongue between teeth
-    "M/B/P": [6],// Closed lips
-    "S/SH": [7], // Tensed lips
-    "R": [8],    // Tongue curled
-    "L": [9],    // Tongue touching roof
-    "D": [10],   // Quick tongue flick
-    "T": [11],   // Similar to D
-    "N": [12],   // Nasal
-    "G": [10],   // Soft palate
-    "K": [14],   // Hard palate
-    "Y": [15],   // Soft tongue push
+    "AA": [1],   // Open mouth
+    "EE": [2],       // Wide lips
+    "OO": [3],       // Rounded lips (needs scaling)
+    "F/V": [4],      // Teeth on lip
+    "TH": [5],   // Tongue between teeth
+    "M/B/P": [6],    // Closed lips
+    "S/SH": [7],     // Tensed lips
+    "R": [8],        // Tongue curled
+    "L": [9],        // Tongue touching roof
+    "D": [10],       // Quick tongue flick
+    "T": [11],       // Similar to D
+    "N": [12],       // Nasal
+    "G": [10],       // Soft palate
+    "K": [14],       // Hard palate
+    "Y": [15],       // Soft tongue push
 };
 
 /**
@@ -31,18 +31,23 @@ export function animatePhonemes(mesh, phonemeSequence, duration) {
         return;
     }
 
-    const morphTargets = phonemeSequence.flatMap(phoneme => phonemeAnimations[phoneme] || [6]);
+    const morphTargets = phonemeSequence.flatMap(phoneme => {
+        console.log(phoneme)
+        return phonemeAnimations[phoneme]||["AA"]});
     const timeline = gsap.timeline();
 
+   
+
     // Apply phoneme animation smoothly
-    console.log(phonemeSequence)
     timeline.to(mesh.morphTargetInfluences, {
-        duration: duration * 0.8 / 100, // Convert ms to seconds
+        duration: duration  / 1000, // Convert ms to seconds
         ease: "power2.out",
         onUpdate: () => {
             for (let i = 0; i < mesh.morphTargetInfluences.length; i++) {
                 if (morphTargets.includes(i)) {
-                    mesh.morphTargetInfluences[i] = gsap.utils.clamp(0, 1, mesh.morphTargetInfluences[i] + 0.1); // 🔥 Smooth buildup
+                    let influence = gsap.utils.clamp(0, 1, mesh.morphTargetInfluences[i] * 0.8 + 0.2);
+                    
+                    mesh.morphTargetInfluences[i] = influence; // Apply influence
                 } else {
                     mesh.morphTargetInfluences[i] *= 0.2;  // Fade out slower
                 }
@@ -52,7 +57,7 @@ export function animatePhonemes(mesh, phonemeSequence, duration) {
 
     // Gradual fade-out instead of instant reset
     timeline.to(mesh.morphTargetInfluences, {
-        duration: duration * 0.2 / 100,
+        duration: duration * 0.1 / 1000,
         ease: "power2.inOut",
         onUpdate: () => {
             for (let i = 0; i < mesh.morphTargetInfluences.length; i++) {
@@ -66,6 +71,3 @@ export function animatePhonemes(mesh, phonemeSequence, duration) {
         }
     });
 }
-
-
-
